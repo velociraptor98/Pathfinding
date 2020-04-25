@@ -11,7 +11,7 @@ public class Map : MonoBehaviour
     {
         int[,] mapInstance = CreateMap();
     }
-    private int[,] CreateMap()
+    public  int[,] CreateMap()
     {
         int[,] map = new int[width, height];
         for(int y=0;y<height; y++ )
